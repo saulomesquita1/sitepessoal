@@ -23,7 +23,38 @@
             height: 100%;
         }
 
-        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #splash {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            z-index: 9999;
+            transform: scale(1);
+    transition: transform 0.5s ease-out;
+        }
+
+        #splash.hidden {
+
+            transform: scale(0);
+            
+        }
+
+        #splash p{
+            font-family: var(--font1);
+        }
+
 
         header {
             display: flex;
@@ -119,7 +150,7 @@
             margin-bottom: 50px;
             margin-right: 30px;
             border: 10px solid rgba(0, 0, 0, 0.356);
-            animation: borda 4s infinite;
+            animation: borda 3s infinite;
         }
 
         @keyframes borda{
@@ -183,12 +214,14 @@
             text-decoration: none;
             color: #333;
         }
-
     </style>
 </head>
 <body>
 	<body>
-        
+        <div id="splash">
+            <h1 id="greeting">Bem-vindo ao Meu Site!</h1>
+            <img src="images/loading.gif" alt="Loading" width="30" height="30">
+        </div>
         <header>
             <div class="logo">
                 <p>Bem Vindo!</p>
@@ -211,7 +244,7 @@
 		<div class="circle"></div>
 		<div class="content">
 			<h1>Saulo Mesquita</h1>
-			<p>Tenho 18 anos, sou estudante e estou à procura de uma oportunidade de emprego.</p>
+			<p>"O conhecimento é uma conquista, mas a aprendizagem é um processo contínuo."<br>- Bill Gates</p>
 
             <ul class="social-icons">
                 <li><a target="_blank" href="https://www.linkedin.com/in/saulo-mesquita-de-avelar-almeida-33505326a"><img src="images/linkedin.png" alt="Linkedin"></a></li>
@@ -221,5 +254,6 @@
             
 		</div>
 	</main>
+    <script src="script.js"></script>
 </body>
 </html>
