@@ -8,10 +8,10 @@ setTimeout(function() {
 var greeting = document.getElementById("greeting");
 var horaAtual = new Date().getHours();
 if (horaAtual >= 0 && horaAtual < 12) {
-    greeting.textContent = "Olá, Bom dia!";
+    greeting.textContent = "Carregando";
 } else if (horaAtual >= 12 && horaAtual < 18) {
-    greeting.textContent = "Olá, Boa tarde!";
+    greeting.textContent = "Carregando";
 } else {
-    greeting.textContent = "Olá, Boa noite!";
+    greeting.textContent = "Carregando";
 }
 
