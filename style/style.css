@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-main: 'Montserrat', sans-serif;
+
+    --color-main: #4801FF
+}
+
+body{
+    background-color: var(--color-main);
+    color: white;
+}
+
+header{
+    max-width: 1400px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 20px 40px;
+    font-family: var(--font-main);
+}
+
+#home{
+    display: flex;
+    height: 94vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#name, #developer{
+    font-family: var(--font-main);
+}
+
+#hometext{
+    text-align: center;
+}
+
+#name{
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* DEIXA TUDO AZUL, TEM TRANSIÇÃODE COR OU DE BORDA */
+
+#about{
+    padding: 50px;
+    height: 100vh;
+}
+
