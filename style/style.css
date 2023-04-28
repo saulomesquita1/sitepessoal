@@ -16,3 +16,19 @@ body{
     margin: 20px;
     font-family: Helvetica, sans-serif;
 }
+
+nav{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+nav ul{
+    list-style: disc;
+    list-style-position: inside;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
