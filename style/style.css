@@ -1,34 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: black;
     color: white;
-    border: 1px solid white;
-    margin: 40px;
-    height: 91vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 37px auto;
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    height: 90vh;
+    width: 96vw;
 }
 
 #name{
     display: inline-block;
-    margin: 20px;
-    font-family: Helvetica, sans-serif;
+    margin: 30px;
+}
+
+#name > h1{
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: -2px;
 }
 
 nav{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 30px;
+    line-height: 30px;
 }
 
 nav ul{
-    list-style: disc;
+    list-style: none;
     list-style-position: inside;
+    font-weight: 500;
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
+}
+
+.about{
+    width: 130px;
+    position: absolute;
+    bottom: 10%;
+    right: 4%;
+
+    font-weight: 500;
+    font-size: 14px;
+
 }
