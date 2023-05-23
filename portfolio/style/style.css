@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bgcolor: #4801FF
+}
+
+html{
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+body{
+    background-color: var(--bgcolor);
+}
+
+aside h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    font-size: 30px;
+}
+
+#projects{
+    text-align: right;
+    float: right;
+
+}
+
+/*FAZER: COLOCAR UM MARCADO NA FRENTE DE CADA PROJETO*/
+
+#projects > h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vw;
+    font-weight: 900;
+    max-width: 80vw;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 1vw;
+    transition: 500ms;
+}
+
+/* CUIDADO! */
+/* SE O NOME DO PROJETO FOR MUITO GRANDE DESCERÁ MAIS UMA LINHA QUANDO PASSAR O MOUSE */
+
+#projects > h2:hover{
+    color: white;
+    font-size: 7vw;
+    transition: 500ms;
+}
