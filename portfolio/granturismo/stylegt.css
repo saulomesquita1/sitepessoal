@@ -57,3 +57,37 @@ nav{
 .link-group button p{
     font-size: 13px;
 }
+
+.section-card-news{
+    padding: 50px;
+}
+
+.info-noticia img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.link-seta img{
+    width: 30px;
+    height: 25px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-info-produto{
+    padding: 50px 0;
+}
+
+.section-info-produto .info-jogo .jogo{
+    height: 250px;
+}
+
+.info-jogo{
+    padding: 25px
+}
+
+.section-info-produto .info-jogo h3{
+    font-size: 20px;
+}
