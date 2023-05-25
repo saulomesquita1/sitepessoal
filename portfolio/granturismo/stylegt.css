@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+nav{
+    background-color: black;
+}
+
+.principal{
+    background-image: url(images/bg-principal.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 78vh;
+    padding: 25px;
+}
+
+.ps_img img{
+    width: 17vw;
+}
+
+.logo_principal img{
+    width: 25vw;
+}
+
+.texto_principal p{
+    color: rgb(206, 206, 206);
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.texto_principal h1{
+    font-size: 30px;
+}
+
+.status{
+    background-color: black;
+    height: 45px;
+}
+
+.status p{
+    margin: 0;
+    font-size: 13px;
+}
+
+.link-group{
+    background-color: black;
+    padding: 15px;
+}
+
+.link-group button img{
+    width: 32px;
+}
+
+.link-group button p{
+    font-size: 13px;
+}
