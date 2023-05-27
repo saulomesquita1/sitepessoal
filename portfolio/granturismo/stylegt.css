@@ -84,6 +84,10 @@ nav{
     max-height: 277px;
 }
 
+.section-info-produto .info-jogo .jogo2{
+    max-width: 208px;
+}
+
 .info-jogo{
     padding: 25px
 }
