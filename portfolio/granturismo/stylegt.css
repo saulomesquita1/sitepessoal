@@ -9,6 +9,10 @@ nav{
     background-color: black;
 }
 
+.nav-secundaria{
+    font-size: 13px;
+}
+
 .principal{
     background-image: url(images/bg-principal.jpg);
     background-size: cover;
@@ -81,11 +85,11 @@ nav{
 }
 
 .section-info-produto .info-jogo .jogo{
-    max-height: 277px;
+    max-height: 223px;
 }
 
 .section-info-produto .info-jogo .jogo2{
-    max-width: 197px;
+    max-width: 175px;
 }
 
 .info-jogo{
