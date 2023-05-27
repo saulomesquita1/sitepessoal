@@ -33,7 +33,9 @@ aside h1{
 
 /*FAZER: COLOCAR UM MARCADO NA FRENTE DE CADA PROJETO*/
 
-#projects > h2{
+
+#projects > a{
+    display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 6vw;
     font-weight: 900;
@@ -42,13 +44,21 @@ aside h1{
     line-height: 1em;
     margin-bottom: 1vw;
     transition: 500ms;
+    text-decoration: none;
+    color: black;
+}
+
+#projects a:visited{
+    color: black;
+    text-decoration: none;
 }
 
 /* CUIDADO! */
 /* SE O NOME DO PROJETO FOR MUITO GRANDE DESCERÁ MAIS UMA LINHA QUANDO PASSAR O MOUSE */
 
-#projects > h2:hover{
+#projects > a:hover{
     color: white;
     font-size: 7vw;
     transition: 500ms;
 }
+
