@@ -85,7 +85,7 @@ nav{
 }
 
 .section-info-produto .info-jogo .jogo2{
-    max-width: 208px;
+    max-width: 197px;
 }
 
 .info-jogo{
@@ -94,4 +94,16 @@ nav{
 
 .section-info-produto .info-jogo h3{
     font-size: 20px;
+}
+
+footer .copy{
+    font-size: 12px;
+}
+
+.logo-poly img{
+    margin-bottom: 20px;
+}
+
+footer .social{
+    margin-bottom: 17px;
 }
