@@ -1,10 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 nav{
     background-color: black;
 }
@@ -47,40 +40,6 @@ nav{
     height: 25px;
 }
 
-/*
-.section-info-produto{
-    padding: 50px -15px;
-}
-*/
-
-/*
-.section-info-produto .info-jogo .jogo{
-    max-height: 223px;
-}
-*/
-
-/*
-.section-info-produto .info-jogo .jogo2{
-    max-width: 175px;
-}
-*/
-
-.info-jogo{
-    padding: 25px
-}
-
 .section-info-produto .info-jogo h3{
     font-size: 20px;
-}
-
-footer .copy{
-    font-size: 12px;
-}
-
-.logo-poly img{
-    margin-bottom: 20px;
-}
-
-footer .social{
-    margin-bottom: 17px;
 }
