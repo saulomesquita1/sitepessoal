@@ -9,49 +9,24 @@ nav{
     background-color: black;
 }
 
-.nav-secundaria{
-    font-size: 13px;
-}
-
 .principal{
     background-image: url(images/bg-principal.jpg);
     background-size: cover;
     background-position: center center;
     height: 78vh;
-    padding: 25px;
-}
 
-.ps_img img{
-    width: 17vw;
-}
-
-.logo_principal img{
-    width: 350px;
 }
 
 .texto_principal p{
     color: rgb(206, 206, 206);
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.texto_principal h1{
-    font-size: 30px;
 }
 
 .status{
     background-color: black;
-    height: 45px;
-}
-
-.status p{
-    margin: 0;
-    font-size: 13px;
 }
 
 .link-group{
     background-color: black;
-    padding: 15px;
 }
 
 .link-group button img{
@@ -62,27 +37,21 @@ nav{
     font-size: 13px;
 }
 
-.section-card-news{
-    padding: 50px;
-}
-
 .info-noticia img{
     width: 25px;
     height: 25px;
-    margin: 10px;
 }
 
 .link-seta img{
     width: 30px;
     height: 25px;
-    margin: 10px;
-    align-items: center;
-    justify-content: center;
 }
 
+/*
 .section-info-produto{
     padding: 50px -15px;
 }
+*/
 
 .section-info-produto .info-jogo .jogo{
     max-height: 223px;
