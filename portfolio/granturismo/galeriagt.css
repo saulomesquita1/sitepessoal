@@ -1,0 +1,15 @@
+.col{
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+}
+
+.bg-nav{
+    background-color: black;
+}
+
+.galeria{
+    background-image: linear-gradient(90deg, #C3A43F, #875E3E);
+}
