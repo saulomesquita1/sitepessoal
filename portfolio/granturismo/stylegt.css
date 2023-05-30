@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 nav{
     background-color: black;
 }
@@ -22,12 +26,20 @@ nav{
     background-color: black;
 }
 
-.link-group button img{
+.link-group a img{
     width: 32px;
 }
 
-.link-group button p{
+.link-group a p{
     font-size: 13px;
+}
+
+.section-card-news{
+    background-color: #16171A;
+}
+
+.section-card-news .card{
+    background-color: #16171A;
 }
 
 .info-noticia img{
