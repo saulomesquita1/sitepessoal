@@ -6,16 +6,12 @@ nav{
     background-color: black;
 }
 
+/* Definindo background principal */
 .principal{
     background-image: url(images/bg-principal.jpg);
     background-size: cover;
     background-position: center center;
     height: 78vh;
-
-}
-
-.texto_principal p{
-    color: rgb(206, 206, 206);
 }
 
 .status{
@@ -26,12 +22,9 @@ nav{
     background-color: black;
 }
 
+/* diminuindo as imagens da navegação por botões (embaixo da barra de status) */
 .link-group a img{
     width: 32px;
-}
-
-.link-group a p{
-    font-size: 13px;
 }
 
 .section-card-news{
@@ -42,16 +35,19 @@ nav{
     background-color: #16171A;
 }
 
+/* Diminuindo o icone "!" de notícias na seção de notícias e atualizações */
 .info-noticia img{
     width: 25px;
     height: 25px;
 }
 
+/* Diminuindo o icone "seta" de notícias na seção de notícias e atualizações */
 .link-seta img{
     width: 30px;
     height: 25px;
 }
 
+/* Deixando o tamanho da fonte */
 .section-info-produto .info-jogo h3{
     font-size: 20px;
 }
